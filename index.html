@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link rel="shortcut icon" href="w.svg" type="image/x-icon/svg">
+        <title>WetLis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    </head>
+ 
+    <body>
+        <div class="container">
+          <h1 align= "center" >WetLis : Listen Weather Information</h1>
+         
+            <div class="mywebapp">
+                
+                <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+                <p id="instructions">
+                    Press and hold button, then say a city name or say my location to get the weather information!
+                </p>
+                <div class="input">
+                    <textarea id="textbox" rows="1" style="resize: none; visibility: hidden;"></textarea>
+                </div>
+                
+                
+               <button id="btnStart" class="btn-4"> <label id="label" for="start-btn">Press and Hold</label></button>
+             <p></p>
+            </div>
+            <div id="weather">
+                <div id="location"></div>
+                <h1 id="temp"></h1>
+                <div id="feelsLike"></div>
+                <div id="humidity"></div>
+                
+                <div id="description"></div>
+                
+            </div>
+
+            
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
